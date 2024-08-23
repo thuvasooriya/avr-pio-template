@@ -1,0 +1,16 @@
+CompileFlags:
+  Add: 
+    - -mmcu=atmega328p
+    - -std=gnu11
+    - -fno-fat-lto-objects
+    - -Os
+    - -Wall
+    - -ffunction-sections
+    - -fdata-sections
+    - -flto
+    - -DF_CPU=16000000L
+    - -DPLATFORMIO=60115
+    - -I/Users/tony/arc/pro/dev/piodev/avr-mac-project/include
+    - -I/Users/tony/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include
+    - -I/Users/tony/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed
+    - -I/Users/tony/.platformio/packages/toolchain-atmelavr/avr/include
